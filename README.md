@@ -36,6 +36,7 @@ Viroma de RNA (Metatranscriptômica ou RNA total)
 PACIENTE_S21_R1 = "https://aulas-pos-hiae-public-data.s3.sa-east-1.amazonaws.com/TCC-metagenomica/patient_joao_VIROMA_S21_R1_001.fastq.gz"
 PACIENTE_S21_R2 = "https://aulas-pos-hiae-public-data.s3.sa-east-1.amazonaws.com/TCC-metagenomica/patient_joao_VIROMA_S21_R2_001.fastq.gz"
 ```
+**Parte 2** - Instalando ferramentas e arquivos a serem utilizados
 - Configuração do ambiente de execução: Nesta etapa, vamos criar um ambiente conda e instalar as ferramentas que serão utilizadas no pipeline.
 ```
 %%bash
@@ -114,6 +115,7 @@ SAMPLE = temp[0]
   -o fastqc/
 ```
 # Imagem relatório fastqc.html
+![image](https://github.com/KairaCristina/TCC_metagen-mica_Instituto_Albert_Einstein/assets/131777938/7e808635-2813-4f41-a6bd-5794d2834a74)
 
 - Filtragem e trimagem das sequências com cutadapt
 
