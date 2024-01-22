@@ -156,7 +156,8 @@ SAMPLE = temp[0]
 !samtools flagstat bwa/{SAMPLE}_mapped_host.bam \
   > bwa/{SAMPLE}_mapped_host_flagstat.txt
 ```
-# colocar relatório .txt
+# Relatório .txt
+![image](https://github.com/KairaCristina/TCC_metagen-mica_Instituto_Albert_Einstein/assets/131777938/4ab18463-4e36-427a-bbe7-6545e878dad8)
 - Gerar FASTQ de reads não mapeados
 ```
 !samtools fastq bwa/{SAMPLE}_unmapped_host.bam \
