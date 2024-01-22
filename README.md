@@ -116,6 +116,7 @@ SAMPLE = temp[0]
 ```
 # Imagem relatório fastqc.html (R1)
 ![Screenshot from 2024-01-22 08-45-33](https://github.com/KairaCristina/TCC_metagen-mica_Instituto_Albert_Einstein/assets/131777938/8a116dca-b72d-459f-9bea-454cb89f7233)
+![Screenshot from 2024-01-22 08-47-54](https://github.com/KairaCristina/TCC_metagen-mica_Instituto_Albert_Einstein/assets/131777938/baf24883-2eb9-4b45-9597-59ecfc08f9df)
 # Imagem relatório fastqc.html (R2)
 ![image](https://github.com/KairaCristina/TCC_metagen-mica_Instituto_Albert_Einstein/assets/131777938/7e808635-2813-4f41-a6bd-5794d2834a74)
 ![image](https://github.com/KairaCristina/TCC_metagen-mica_Instituto_Albert_Einstein/assets/131777938/3a07b98c-484e-4db6-9037-948043a542dc)
