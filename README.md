@@ -187,7 +187,8 @@ O kraken2 possui vários bancos disponíveis, com diferentes composições de ge
   -q 2 -t 3 \
   -o kraken2/{SAMPLE}_classification.html
 ```
-# imagem result final
+# imagem resultado final
+![image](https://github.com/KairaCristina/TCC_metagen-mica_Instituto_Albert_Einstein/assets/131777938/70a4204d-9061-4fdb-aeca-92019140a4da)
 
 **Inspecionar resultados**
 - Nesta última etapa, cabe ao analista ou médico patologista/infectologista inspecionar os resultados gerados pelos relatórios de diversidade para identificar possíveis patógenos na amostra.
