@@ -115,7 +115,7 @@ SAMPLE = temp[0]
   -o fastqc/
 ```
 # Imagem relatório fastqc.html (R1)
-/home/kaira/Downloads/PACIENTE1_VIROMA_S21_R1_001_fastqc.html
+![Screenshot from 2024-01-22 08-45-33](https://github.com/KairaCristina/TCC_metagen-mica_Instituto_Albert_Einstein/assets/131777938/8a116dca-b72d-459f-9bea-454cb89f7233)
 # Imagem relatório fastqc.html (R2)
 ![image](https://github.com/KairaCristina/TCC_metagen-mica_Instituto_Albert_Einstein/assets/131777938/7e808635-2813-4f41-a6bd-5794d2834a74)
 ![image](https://github.com/KairaCristina/TCC_metagen-mica_Instituto_Albert_Einstein/assets/131777938/3a07b98c-484e-4db6-9037-948043a542dc)
