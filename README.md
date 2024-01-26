@@ -4,7 +4,7 @@
 - Julia Beltramini
 - Kaira Cristina Peralis Tomaz
 - Leonardo V. Azevedo
-- Melcar Collodetti
+- Mélcar Collodetti
 - Sara Reis
 - Victor Aldair
 
