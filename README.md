@@ -194,6 +194,8 @@ O kraken2 possui vários bancos disponíveis, com diferentes composições de ge
 ![image](https://github.com/KairaCristina/TCC_metagen-mica_Instituto_Albert_Einstein/assets/131777938/70a4204d-9061-4fdb-aeca-92019140a4da)
 # Imagem resultado final viroma
 ![image](https://github.com/KairaCristina/TCC_metagen-mica_Instituto_Albert_Einstein/assets/131777938/a756601c-9681-41a0-a20f-2205c63b2841)
+# Imagem resultado final Pseudomonas
+![image](https://github.com/KairaCristina/TCC_metagen-mica_Instituto_Albert_Einstein/assets/131777938/69183d1c-6804-41a4-b3f6-b8903976a5cc)
 
 ### **Inspecionar resultados**
 - Nesta última etapa, cabe ao analista ou médico patologista/infectologista inspecionar os resultados gerados pelos relatórios de diversidade para identificar possíveis patógenos na amostra.
