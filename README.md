@@ -194,6 +194,8 @@ O kraken2 possui vários bancos disponíveis, com diferentes composições de ge
 ![image](https://github.com/KairaCristina/TCC_metagen-mica_Instituto_Albert_Einstein/assets/131777938/70a4204d-9061-4fdb-aeca-92019140a4da)
 # Imagem resultado final viroma
 ![image](https://github.com/KairaCristina/TCC_metagen-mica_Instituto_Albert_Einstein/assets/131777938/a756601c-9681-41a0-a20f-2205c63b2841)
+# Imagem resultado final Pseudomonas
+![image](https://github.com/KairaCristina/TCC_metagen-mica_Instituto_Albert_Einstein/assets/131777938/69183d1c-6804-41a4-b3f6-b8903976a5cc)
 
 ### **Inspecionar resultados**
 - Nesta última etapa, cabe ao analista ou médico patologista/infectologista inspecionar os resultados gerados pelos relatórios de diversidade para identificar possíveis patógenos na amostra.
@@ -226,6 +228,11 @@ git clone https://github.com/circulosmeos/gdown.pl.git
   -q 2 -t 3 \
   -o kraken2/patient_joao_METAGENOMICA_classification_contigs.html
 ```
+- imagem arquivo <patient_joao_METAGENOMICA_classification_contigs.html>
+![Screenshot from 2024-02-04 17-33-14](https://github.com/KairaCristina/TCC_metagen-mica_Instituto_Albert_Einstein/assets/131777938/a3e965c9-68de-4011-8cc5-bd475a2ec60d)
+
+![Screenshot from 2024-02-04 17-33-42](https://github.com/KairaCristina/TCC_metagen-mica_Instituto_Albert_Einstein/assets/131777938/f034df5e-a2fc-4ca8-b177-51df611cfad8)
+
 ### Conclusão da etapa adicional:
 A sugestão de montar os reads em contigs antes de realizar a identificação taxonômica pode oferecer várias vantagens em comparação com a busca direta dos reads. Aqui estão algumas das possíveis vantagens desse procedimento:
 
