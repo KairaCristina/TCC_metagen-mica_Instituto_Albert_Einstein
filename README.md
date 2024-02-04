@@ -229,6 +229,8 @@ git clone https://github.com/circulosmeos/gdown.pl.git
 - imagem arquivo <patient_joao_METAGENOMICA_classification_contigs.html>
 ![Screenshot from 2024-02-04 17-33-14](https://github.com/KairaCristina/TCC_metagen-mica_Instituto_Albert_Einstein/assets/131777938/a3e965c9-68de-4011-8cc5-bd475a2ec60d)
 
+![Screenshot from 2024-02-04 17-33-42](https://github.com/KairaCristina/TCC_metagen-mica_Instituto_Albert_Einstein/assets/131777938/f034df5e-a2fc-4ca8-b177-51df611cfad8)
+
 ### Conclusão da etapa adicional:
 A sugestão de montar os reads em contigs antes de realizar a identificação taxonômica pode oferecer várias vantagens em comparação com a busca direta dos reads. Aqui estão algumas das possíveis vantagens desse procedimento:
 
