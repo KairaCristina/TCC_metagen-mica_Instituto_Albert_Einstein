@@ -199,3 +199,39 @@ O kraken2 possui vários bancos disponíveis, com diferentes composições de ge
 - Nesta última etapa, cabe ao analista ou médico patologista/infectologista inspecionar os resultados gerados pelos relatórios de diversidade para identificar possíveis patógenos na amostra.
 É importante ressaltar que o resultado da identificação taxonômica gerado pelo kraken2 não deve ser levado em consideração unicamente. O processo de laudamente deve envolver uma etapa posterior de validação do achado, que poderia remover falso-positivos gerados pelo Kraken2 ou mesmo encontrar patógenos que não foram apontado pela identificação do Kraken2.
 
+## Etapa adicional de validação: identificação taxônomica por contigs.fasta
+Nesta etapa faremos o download do arquivo do paciente s21, com a etapa de montagem, realizada pela ferramenta Spades, dos reads em contigs (sequências maiores) e então realizar a mesma etapa de identificação taxônomica.
+```
+!mkdir Assembly
+```
+- Clone gdown - faz download de links compartilhados do Google Drive e download do arquivo pelo link
+```
+%%bash
+git clone https://github.com/circulosmeos/gdown.pl.git
+./gdown.pl/gdown.pl https://aulas-pos-hiae-public-data.s3.sa-east-1.amazonaws.com/TCC-metagenomica/patient_joao_METAGENOMICA_contigs.fasta PATIENT_joao_METAGENOMICA_contigs.fasta
+```
+```
+!mv /content/PATIENT_joao_METAGENOMICA_contigs.fasta /content/Assembly
+```
+- Nova classificação para os contigs montados (sequencias mais longas)
+```
+!kraken2 -db kraken2-db/ \
+	--report kraken2/{SAMPLE}_kraken_report_contigs.txt \
+  --output kraken2/{SAMPLE}_kraken2_NT_contigs.out \
+ /content/Assembly/PATIENT_joao_METAGENOMICA_contigs.fasta
+```
+- Gerar novo relatório, agora para os contigs
+```
+!ktImportTaxonomy kraken2/{SAMPLE}_kraken2_NT_contigs.out \
+  -q 2 -t 3 \
+  -o kraken2/patient_joao_METAGENOMICA_classification_contigs.html
+```
+### Conclusão da etapa adicional:
+A sugestão de montar os reads em contigs antes de realizar a identificação taxonômica pode oferecer várias vantagens em comparação com a busca direta dos reads. Aqui estão algumas das possíveis vantagens desse procedimento:
+
+- Melhor resolução de sequências: Montar os reads em contigs pode resultar em sequências mais longas e contínuas, proporcionando uma melhor resolução do genoma. Isso é particularmente útil para identificar genes completos, regiões regulatórias e outras características genômicas que podem ser fragmentadas quando visualizadas apenas como reads individuais.
+
+- Redução de artefatos de sequenciamento: A montagem em contigs pode ajudar a eliminar ou reduzir artefatos de sequenciamento, como erros de leitura e duplicatas, proporcionando uma representação mais precisa do genoma.
+
+- Identificação de novos genes ou elementos genéticos: A montagem em contigs pode revelar novos genes ou elementos genéticos que podem não ser facilmente identificados quando apenas os reads são analisados. Isso é especialmente importante em estudos de genomas não completamente sequenciados ou em organismos pouco caracterizados.
+
