@@ -127,3 +127,7 @@ AAChange
 - I33T
 - G204delinsKR
 - I292T
+
+![Screenshot from 2024-02-04 19-52-37](https://github.com/KairaCristina/TCC_metagen-mica_Instituto_Albert_Einstein/assets/131777938/98eb2d84-dc1f-422e-ae99-eeb62920f856)
+
+Em destaque a posição 614 com o aminoácido glicina, PDB 7m8k.
