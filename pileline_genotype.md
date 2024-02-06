@@ -112,22 +112,34 @@ No arquivo <PACIENTE1_VIROMA_S21_final_variants_annotated.txt>, ao abri-lo no Ex
 ### Trocas de aminoácidos da amostra analisada:
 AAChange
 
-ORF1ab:YP_009724389.1:exon1:c.C2772T:**p.F924F**,ORF1a:YP_009725295.1:exon1:c.C2772T:**p.F924F**,nsp3:YP_009742610.1:exon1:c.C318T:**p.F106F**
-ORF1ab:YP_009724389.1:exon1:c.C5247T:**p.N1749N**,ORF1a:YP_009725295.1:exon1:c.C5247T:**p.N1749N**,nsp3:YP_009742610.1:exon1:c.C2793T:**p.N931N**
-ORF1ab:YP_009724389.1:exon1:c.C5775T:**p.F1925F**,ORF1a:YP_009725295.1:exon1:c.C5775T:**p.F1925F**,nsp3:YP_009742610.1:exon1:c.C3321T:**p.F1107F**
-ORF1ab:YP_009724389.1:exon1:c.G7671T:**p.A2557A**,ORF1a:YP_009725295.1:exon1:c.G7671T:**p.A2557A**,nsp3:YP_009742610.1:exon1:c.G5217T:**p.A1739A**
-ORF1ab:YP_009724389.1:exon1:c.T9378A:**p.I3126I**,ORF1a:YP_009725295.1:exon1:c.T9378A:**p.I3126I**,nsp4:YP_009725300.1:exon1:c.T1089A:**p.I363I**
-ORF1ab:YP_009724389.1:exon2:c.A13448G:**p.K4483R**,nsp12:YP_009725307.1:exon2:c.A272G:**p.K91R**
-ORF1ab:YP_009724389.1:exon2:c.G14026A:**p.D4676N**,nsp12:YP_009725307.1:exon2:c.G850A:**p.D284N**
-ORF1ab:YP_009724389.1:exon2:c.C14144T:**p.P4715L**,nsp12:YP_009725307.1:exon2:c.C968T:**p.P323L**
-S:YP_009724390.1:exon1:c.C67A:**p.Q23K**
-S:YP_009724390.1:exon1:c.G769A:**p.G257S**
-S:YP_009724390.1:exon1:c.A1841G:**p.D614G**
-ORF3a:YP_009724391.1:exon1:c.C512T:**p.S171L**
-ORF6:YP_009724394.1:exon1:c.96_98delinsTAC:**p.I33T**
-N:YP_009724397.2:exon1:c.608_610delinsAAC:**p.R203_G204delinsKR**
-N:YP_009724397.2:exon1:c.T875C:**p.I292T**
-
+- ORF1ab:YP_009724389.1:exon1:c.C2772T:**p.F924F**,
+- ORF1a:YP_009725295.1:exon1:c.C2772T:**p.F924F**,
+- nsp3:YP_009742610.1:exon1:c.C318T:**p.F106F**
+- ORF1ab:YP_009724389.1:exon1:c.C5247T:**p.N1749N**,
+- ORF1a:YP_009725295.1:exon1:c.C5247T:**p.N1749N**,
+- nsp3:YP_009742610.1:exon1:c.C2793T:**p.N931N**,
+- ORF1ab:YP_009724389.1:exon1:c.C5775T:**p.F1925F**,
+- ORF1a:YP_009725295.1:exon1:c.C5775T:**p.F1925F**,
+- nsp3:YP_009742610.1:exon1:c.C3321T:**p.F1107F**,
+- ORF1ab:YP_009724389.1:exon1:c.G7671T:**p.A2557A**,
+- ORF1a:YP_009725295.1:exon1:c.G7671T:**p.A2557A**,
+- nsp3:YP_009742610.1:exon1:c.G5217T:**p.A1739A**,
+- ORF1ab:YP_009724389.1:exon1:c.T9378A:**p.I3126I**,
+- ORF1a:YP_009725295.1:exon1:c.T9378A:**p.I3126I**,
+- nsp4:YP_009725300.1:exon1:c.T1089A:**p.I363I**,
+- ORF1ab:YP_009724389.1:exon2:c.A13448G:**p.K4483R**,
+- nsp12:YP_009725307.1:exon2:c.A272G:**p.K91R**,
+- ORF1ab:YP_009724389.1:exon2:c.G14026A:**p.D4676N**,
+- nsp12:YP_009725307.1:exon2:c.G850A:**p.D284N**,
+- ORF1ab:YP_009724389.1:exon2:c.C14144T:**p.P4715L**,
+- nsp12:YP_009725307.1:exon2:c.C968T:**p.P323L**,
+- S:YP_009724390.1:exon1:c.C67A:**p.Q23K**,
+- S:YP_009724390.1:exon1:c.G769A:**p.G257S**,
+- S:YP_009724390.1:exon1:c.A1841G:**p.D614G**,
+- ORF3a:YP_009724391.1:exon1:c.C512T:**p.S171L**,
+- ORF6:YP_009724394.1:exon1:c.96_98delinsTAC:**p.I33T**,
+- N:YP_009724397.2:exon1:c.608_610delinsAAC:**p.R203_G204delinsKR**,
+- N:YP_009724397.2:exon1:c.T875C:**p.I292T**.
 ![Screenshot from 2024-02-04 19-52-37](https://github.com/KairaCristina/TCC_metagen-mica_Instituto_Albert_Einstein/assets/131777938/98eb2d84-dc1f-422e-ae99-eeb62920f856)
 Em destaque a posição 614 com o aminoácido glicina, PDB 7m8k.
 
