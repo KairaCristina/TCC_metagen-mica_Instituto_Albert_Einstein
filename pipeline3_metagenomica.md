@@ -85,6 +85,18 @@ SAMPLE = temp[0]
   fastq/{SAMPLE}_R2_001.fastq.gz \
   -o fastqc/
 ```
+### Imagem tabela de qualidade arquivo <patient_joao_METAGENOMICA_S9_R1_001_fastqc.html>
+![Screenshot from 2024-02-06 16-27-19](https://github.com/KairaCristina/TCC_metagen-mica_Instituto_Albert_Einstein/assets/131777938/c21a9f28-5cf0-4788-a5b6-60da80695bd9)
+
+### Imagem gráfico de qualidade arquivo <patient_joao_METAGENOMICA_S9_R1_001_fastqc.html>
+![Screenshot from 2024-02-06 16-27-34](https://github.com/KairaCristina/TCC_metagen-mica_Instituto_Albert_Einstein/assets/131777938/cf03c8b0-0995-4842-beaa-ea0e0a64bce9)
+
+### Imagem tabela de qualidade arquivo <patient_joao_METAGENOMICA_S9_R2_001_fastqc.html>
+![Screenshot from 2024-02-06 16-26-29](https://github.com/KairaCristina/TCC_metagen-mica_Instituto_Albert_Einstein/assets/131777938/fed95fea-d469-4364-9443-06f6d54f0c55)
+
+### Imagem gráfico de qualidade arquivo <patient_joao_METAGENOMICA_S9_R2_001_fastqc.html>
+![Screenshot from 2024-02-06 16-26-49](https://github.com/KairaCristina/TCC_metagen-mica_Instituto_Albert_Einstein/assets/131777938/7d6ef36e-bc4b-4dfe-8993-6a68c06feba1)
+
 - Filtragem e trimagem das sequências com cutadapt
 ```
 !cutadapt -u 5 -U 5 -u -9 -U -9 -m 50  \
@@ -93,6 +105,8 @@ SAMPLE = temp[0]
   fastq/{SAMPLE}_R1_001.fastq.gz \
   fastq/{SAMPLE}_R2_001.fastq.gz > cutadapt/summary_cutadapt.txt
 ```
+### Imagem de relátório arquivo <summary_cutadapt.txt>
+![Screenshot from 2024-02-06 16-25-50](https://github.com/KairaCristina/TCC_metagen-mica_Instituto_Albert_Einstein/assets/131777938/8bdca848-023e-42ea-b708-289b70809c45)
 ## **Parte 4** - Remover contaminantes do hospedeiro
 - Nesta etapa, precisamos pegar as sequências limpas na etapa anterior e proceder com o mapeamento no genoma de referência humano. Dessa forma, poderemos remover estas sequências que mapeias contra o genoma humano e ficar com apenas o que interessa para as demais etapas. 
 - Indexar a referência
@@ -147,3 +161,6 @@ O kraken2 possui vários bancos disponíveis, com diferentes composições de ge
 ## **Parte final** - Inspecionar os resultados
 - Nesta última etapa, cabe ao analista ou médico patologista/infectologista inspecionar os resultados gerados pelos relatórios de diversidade para identificar possíveis patógenos na amostra.
 É importante ressaltar que o resultado da identificação taxonômica gerado pelo kraken2 não deve ser levado em consideração unicamente. O processo de laudamente deve envolver uma etapa posterior de validação do achado, que poderia remover falso-positivos gerados pelo Kraken2 ou mesmo encontrar patógenos que não foram apontado pela identificação do Kraken2.
+
+### Imagem de gráfico resultado final da análise, arquivo <patient_joao_METAGENOMICA_S9_classification.html>
+![Screenshot from 2024-02-06 16-30-41](https://github.com/KairaCristina/TCC_metagen-mica_Instituto_Albert_Einstein/assets/131777938/5566b1fd-6a13-4424-b1f2-685c0e5e9037)
