@@ -12,7 +12,7 @@
 Paciente com síndrome respiratória aguda com uso recente do antibiótico Azitromicina e do fármaco Ivermectina.
 
 ### Objetivo geral: 
-Análise da comunidade microbiana presente na   amostra através de técnicas ômicas e identificação de possíveis patógenos.
+Análise da comunidade microbiana presente na amostra através de técnicas ômicas e identificação de possíveis patógenos.
 
 ### Material fornecido:
 Viroma de RNA (Metatranscriptômica ou RNA total)

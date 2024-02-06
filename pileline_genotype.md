@@ -1,7 +1,7 @@
 ## Pipeline Genotipagem:
 ***Este pipeline foi fornecido durante o curso de pós graduação de Bioinformática aplicada a genômica médica do Instituto de Ensino e Pesquisa Albert Einstein, pelo Prof. Deyvid Amgarten.*** Aconselha-se executá-lo no Google Colaboratory.
 
-- Remove a pasta sample_data porque ela vem porpadrão do Google Colabs e não é necessária
+- Remove a pasta sample_data porque ela vem por padrão do Google Colabs e não é necessária
 ```
 ! rm -rf sample_data/
 ```
