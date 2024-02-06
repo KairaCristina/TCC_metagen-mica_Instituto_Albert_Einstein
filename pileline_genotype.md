@@ -132,8 +132,7 @@ N:YP_009724397.2:exon1:c.T875C:**p.I292T**
 ![Screenshot from 2024-02-04 19-52-37](https://github.com/KairaCristina/TCC_metagen-mica_Instituto_Albert_Einstein/assets/131777938/98eb2d84-dc1f-422e-ae99-eeb62920f856)
 
 Em destaque a posição 614 com o aminoácido glicina, PDB 7m8k.
+https://github.com/KairaCristina/TCC_metagen-mica_Instituto_Albert_Einstein/assets/131777938/225cce7f-5e23-4eac-aaa1-2a1c81fbcc8a
 
-[https://github.com/KairaCristina/TCC_metagen-mica_Instituto_Albert_Einstein/assets/131777938/831764ca-2fe9-4eb1-b38d-29c28f410298](https://github.com/KairaCristina/TCC_metagen-mica_Instituto_Albert_Einstein/assets/131777938/225cce7f-5e23-4eac-aaa1-2a1c81fbcc8a
-)https://github.com/KairaCristina/TCC_metagen-mica_Instituto_Albert_Einstein/assets/131777938/225cce7f-5e23-4eac-aaa1-2a1c81fbcc8a
-PDB7cn4 com "mutações" virtuais para os aminoácidos encontrados na amostra analisada acima.
+PDB 7cn4 com "mutações" virtuais para os aminoácidos encontrados na amostra analisada acima.
 
