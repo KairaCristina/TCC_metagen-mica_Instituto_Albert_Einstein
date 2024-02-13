@@ -106,6 +106,8 @@ SAMPLE = temp[0]
   fastq/{SAMPLE}_R1_001.fastq.gz \
   fastq/{SAMPLE}_R2_001.fastq.gz > cutadapt/summary_cutadapt.txt
 ```
+### Arquivo <summary_cutadapt.txt>
+![image](https://github.com/KairaCristina/TCC_metagen-mica_Instituto_Albert_Einstein/assets/131777938/28e9faaf-94d0-4fcd-a3ab-63b7d50d0162)
 ```
 !cutadapt -h
 ```
