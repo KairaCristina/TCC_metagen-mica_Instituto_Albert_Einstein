@@ -59,8 +59,9 @@ git clone https://github.com/circulosmeos/gdown.pl.git
 - Download genoma do hospedeiro para remoção de contaminantes.
 
 ```
-!wget https://aulas-pos-hiae-public-data.s3.sa-east-1.amazonaws.com/chr22.fa
-HOST = "chr22.fa"
+!wget http://igenomes.illumina.com.s3-website-us-east-1.amazonaws.com/Homo_sapiens/UCSC/hg38/Homo_sapiens_UCSC_hg38.tar.gz
+!tar -xf Homo_sapiens_UCSC_hg38.tar.gz
+HOST = '/content/Homo_sapiens/UCSC/hg38/Sequence/WholeGenomeFasta/genome.fa'
 ```
 - Reorganizar os arquivos em uma estrutura intelegível de pastas.
 
