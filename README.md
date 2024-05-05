@@ -1,6 +1,6 @@
-# Trabalho final Bioinformática Aplicada à Genômica Médica
+# Final Work: Applied Bioinformatics in Medical Genomics
 
-## Grupo:
+## Group:
 - Julia Beltramini
 - Kaira Cristina Peralis Tomaz
 - Leonardo V. Azevedo
@@ -8,20 +8,21 @@
 - Sara Reis
 - Victor Aldair
 
-### Descrição clínica do paciente:
-Paciente com síndrome respiratória aguda com uso recente do antibiótico Azitromicina e do fármaco Ivermectina.
+### Clinical Description of the Patient:
+Patient with acute respiratory syndrome with recent use of the antibiotic Azithromycin and the drug Ivermectin.
 
-### Objetivo geral: 
-Este trabalho visa a análise da comunidade microbiana presente na amostra através de técnicas ômicas e identificação de possíveis patógenos.
+### Overall Objective:
+This work aims to analyze the microbial community present in the sample through omics techniques and the identification of possible pathogens.
 
-### Objetivos específicos:
-Executar os três pipelines disponibilizados pelos professores para resolver o caso do paciente.
+### Specific Objectives:
+Execute the three pipelines provided by the instructors to solve the patient's case.
 
-### Material fornecido:
-Viroma de RNA (Metatranscriptômica ou RNA total)
+### Material Provided:
+RNA Virome (Metatranscriptomics or Total RNA)
 - VIROMA-R1: (https://aulas-pos-hiae-public-data.s3.sa-east-1.amazonaws.com/TCC-metagenomica/patient_joao_VIROMA_S21_R1_001.fastq.gz)
 - VIROMA-R2: (https://aulas-pos-hiae-public-data.s3.sa-east-1.amazonaws.com/TCC-metagenomica/patient_joao_VIROMA_S21_R2_001.fastq.gz)
 
-### Questões:
-1. Qual o vírus patogênico presente na amostra? O que você pode dizer sobre as suas características genômicas e de linhagem?
-2. Existe algum vírus que pode ser considerado achado acidental? Qual e por quê?
+### Questions:
+    
+1. What pathogenic virus is present in the sample? What can you say about its genomic and lineage characteristics?
+2. Is there any virus that could be considered an incidental finding? Which one and why?
